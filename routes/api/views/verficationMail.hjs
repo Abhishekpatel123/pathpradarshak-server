@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head></head>
+
+<body style="box-sizing:border-box;margin:0;padding:0">
+    <style>
+        @media only screen and (max-width:600px) {
+            .container {
+                padding: 20px 80px
+            }
+        }
+    </style>
+    <div class="container"
+        style="background-color:#f2f6f9;height:fit-content;padding:40px 100px;text-align:center;width:fit-content">
+        <div class="logo" style="margin-bottom:10px;text-align:initial"><img src="cid:logo" alt="logo" width="90px"
+                height="30px"></div>
+        <div class="content-container"
+            style="background-color:#fff;max-width:600px;padding:20px 30px;text-align:initial">
+            <h1 style="margin-top:0;text-align:center">Welcome!</h1>
+            <p style="line-height:1.2">We're excited to have you get started. First, you need to confirm your account.
+                Just press the button below.</p><a href="{{url}}" style="text-decoration:none"><button
+                    style="background-color:#00AB55;border:none;border-radius:5px;cursor:pointer;display:block;font-weight:500;letter-spacing:1px;margin:10px auto;margin-bottom:10px;outline:0;padding:10px 15px;text-transform:uppercase">Confirm
+                    Account</button></a>
+            <p style="line-height:1.2;color:red;margin-bottom:20px;">This link will be expire in 15mins.</p>
+            <p style="line-height:1.2;margin-bottom:10px;">Unable to click on the above button? Click here</p>
+            <p class="link" style="line-height:1.2"><a href="{{url}}" style="text-decoration:none">{{url}}</a></p>
+        </div>
+        <p class="copyright" style="color:#909497;font-weight:500;line-height:1.2; margin-top:10px;">© 2021 Invision Learnovative. ® All
+            Rights Reserved.
+        </p>
+    </div>
+</body>
+
+</html>
